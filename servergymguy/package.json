@@ -1,0 +1,17 @@
+{
+  "name": "GymGuy",
+  "version": "1.0.0",
+  "description": "Gymguy app on Docker",
+  "author": "sandeeppamujula@gmail.com",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+     "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-namespace": "0.1.1",
+    "mongoose": "^4.6.0",
+    "path": "^0.12.7"
+  }
+}

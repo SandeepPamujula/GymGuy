@@ -11,6 +11,12 @@ router.get('/user/:userName',function(req,res){
     gymguyUserCtrl.findUser(req,res);
 });
 
+router.get('/user',function(req,res){
+    
+    gymguyUserCtrl.findAllUsers(req,res);
+});
+
+
 router.get('/', function (req, res) {
   res.send('Hello World!');
 });
